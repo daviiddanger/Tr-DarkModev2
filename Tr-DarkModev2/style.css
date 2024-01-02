@@ -1,0 +1,57 @@
+/*------------------------------------------*/
+:root{
+    --color-fondo-oscuro: #353232; /* Color de fondo oscuro :v*/
+}
+
+.btnDark{
+    background: #000;
+    border-radius: 25px;
+}
+
+body.modo-oscuro{
+    background-color: var(--color-fondo-oscuro);
+}
+/*------------------------------------------*/
+
+  /* Restablecer algunos estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    
+    text-align: end;
+   
+}
+
+.nav-container {
+    
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+    
+}
+
+nav a {
+    color: #161616;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+  
